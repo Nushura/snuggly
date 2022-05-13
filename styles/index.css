@@ -1,0 +1,94 @@
+.snuggly_header{
+    font-family: 'Special Elite', cursive;
+    text-emphasis-style: bold;
+}
+
+.navbar{
+    margin: 0px;
+    height: 10vh;
+    background-color: blanchedalmond;
+
+}
+.nav {
+    color: black;
+    margin:0;
+}
+.content{
+    color:black
+}
+
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    /* oveflow hidden is so that no scroll bar show up even when needed at it is a nav bar */
+    /* overflow: hidden; */
+    
+}
+li{
+    color: white;
+    margin: 0;
+    font: 1em sans-serif;
+    display: inline;
+    display:block;
+    /* font-weight: bold; */
+    font-size: 25px;
+}
+
+.content {
+    grid-area: content;
+    /* background-color: blanchedalmond; */
+    min-height: 100vh;
+    position: relative
+}
+
+/* Footer css */
+.footerelements{
+    /* text-align: center; */
+    display: inline-block;
+    /* margin: auto; */
+    width: 100%;
+}
+.logo_and_copyright{
+    display:inline-block;
+    text-align:left;
+    padding: 5px;
+    margin: 2px;
+    width: 620px;
+    height: 300px;
+    color: black;
+    /* background-color: gray; */
+}
+
+.firstthreelinks{
+    display:inline-block;
+    text-align:left;
+    padding: 5px;
+    margin: 2px;
+    width: 620px;
+    height: 300px;
+    color: black;
+    /* background-color: gray; */
+}
+
+.secondthreelinks{
+    display:inline-block;
+    text-align:left;
+    padding: 5px;
+    margin: 2px;
+    width: 620px;
+    height: 300px;
+    color: black;
+    /* background-color: gray; */
+}
+
+.footerlinks{
+    color: black;
+    margin: auto;
+    display:initial;
+    float: left;
+    display:block;
+    padding: 10px;
+    /* padding-top: 0px; */
+    /* border-right:2px solid white; */
+}
