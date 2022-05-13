@@ -1,3 +1,4 @@
+/* Header and nav bar css here */
 .snuggly_header{
     font-family: 'Special Elite', cursive;
     text-emphasis-style: bold;
@@ -20,11 +21,9 @@
 ul{
     list-style-type: none;
     margin:0;
-    padding:0;
-    /* oveflow hidden is so that no scroll bar show up even when needed at it is a nav bar */
-    /* overflow: hidden; */
-    
+    padding:0;    
 }
+
 li{
     color: white;
     margin: 0;
@@ -35,12 +34,24 @@ li{
     font-size: 25px;
 }
 
+
+
+
+
+
+
+/* Main content css starts here */
+
 .content {
     grid-area: content;
-    /* background-color: blanchedalmond; */
     min-height: 100vh;
     position: relative
 }
+
+
+
+
+
 
 /* Footer css */
 .footerelements{
@@ -57,7 +68,6 @@ li{
     width: 620px;
     height: 300px;
     color: black;
-    /* background-color: gray; */
 }
 
 .firstthreelinks{
@@ -68,7 +78,6 @@ li{
     width: 620px;
     height: 300px;
     color: black;
-    /* background-color: gray; */
 }
 
 .secondthreelinks{
@@ -79,7 +88,6 @@ li{
     width: 620px;
     height: 300px;
     color: black;
-    /* background-color: gray; */
 }
 
 .footerlinks{
@@ -89,6 +97,4 @@ li{
     float: left;
     display:block;
     padding: 10px;
-    /* padding-top: 0px; */
-    /* border-right:2px solid white; */
 }
