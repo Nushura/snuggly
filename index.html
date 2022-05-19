@@ -39,11 +39,12 @@
         <div class=" p-5 bg-warning">
             <!-- Heading -->
             <div id="heading" class="snuggly_header display-1">
-                <h1 class="snuggly_header display-1"> </h1>
+                <!-- <h1 class="snuggly_header display-1"> </h1> -->
+                <p class="logo"><img src="content/Logo.png" width="380" height="85" alt="Snuggly logo"></p>
             </div>
         </div>
 
-        <script type="text/javascript">
+        <!-- <script type="text/javascript">
             var i = 0, heading;
             heading = "SNUGGLY"
 
@@ -59,7 +60,7 @@
             }
 
             type_writer();
-        </script>
+        </script> -->
 
         <!-- NAVIGATION BAR -->
         <div class="navbar">
@@ -76,22 +77,134 @@
                 <ul class="nav navbar-right">
                     <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
                     <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-
+                    <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span>Cart</a></li>
                 </ul>
 
             </div>
         </div>
-      
+
         <!-- MAIN CONTENT STARTS HERE -->
         <!-- Change this part according to each page -->
         <div class="content">
-            <h1>content</h1>
+
+            <!-- Carousel -->
+            <!-- Help taken from bootstrap documentation page -->
+            <!-- https://getbootstrap.com/docs/4.0/components/carousel/ -->
+            <div id="carouselExampleControls" class="carousel slide text-center" data-ride="carousel">
+                <div class="carousel-inner text-center">
+                    <div class="text-center carousel-item active">
+                        <img class="d-block w-80 mh-75" src="content/Banner/1.gif" alt="Welcoming banner">
+                    </div>
+
+                    <div class="text-center carousel-item">
+                        <img class="d-block w-80 mh-75" src="content/Banner/2.gif" alt="Fixed meal plan banner">
+                    </div>
+
+                    <div class="text-center carousel-item">
+                        <img class="d-block w-80 mh-75" src="content/Banner/3.gif" alt="Customize meal plan banner">
+                    </div>
+
+                    <div class="text-center carousel-item">
+                        <img class="d-block w-80 mh-75" src="content/Banner/4.gif" alt="Pet gear banner">
+                    </div>
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+
+            <div class="text-center">
+                <span class="socials px-5 mr-5">
+                    <h3>
+                        <p><img src="content/stats/problem_statement.png" alt="problem statement" width="500" height="450"></p>
+                    </h3>
+                </span>
+
+                <span class="socials px-5 ml-5">
+                    <h3>
+                        <p><img src="content/stats/Stats.gif" alt="stats logo" width="500" height="500"></p>
+                    </h3>
+                </span>
+            </div>
+
+            <div class="text-center">
+                <h2 class="MainService font-weight-bold pt-5 pb-5">Services</h2>
+            </div>
+
+            <div class="text-center p-5">
+                <span class="socials p-4">
+                    <h3 class="text_over_img shadow bg-white rounded"><a href="fixed_meal_plan.html">
+                        <p><img src = "content/main services/1.png"  alt= "Fixed Meal plan picture" width="450" height="350"></p>
+                        <div class="text rounded">
+                            <h1>Fixed Meal Plan</h1>
+                        </div></a>
+                    </h3>
+                </span>
+
+                <span class="socials p-4">
+                    <h3 class="text_over_img shadow bg-white rounded"><a href="customize_meal_plan.html">
+                        <p><img src = "content/main services/2.jpg"  alt= "Customize Meal plan picture" width="450" height="350"></p>
+                        <div class="text rounded">
+                            <h1>Customize Meal Plan</h1>
+                        </div></a>
+                    </h3>
+                </span>
+
+                <span class="socials p-4">
+                    <h3 class="text_over_img shadow bg-white rounded"><a href="pet_gear.html">
+                        <p><img src = "content/main services/3.jpg"  alt= "Customize Meal plan picture" width="450" height="350"></p>
+                        <div class="text rounded">
+                            <h1>Pet Gear</h1>
+                        </div></a>
+                    </h3>
+                </span>
+            </div>
+
+            <div class=" text-center">
+                <h2 class="MainService pt-5 pb-5">Why Snuggly?</h2>
+            </div>
+
+            <div class="text-center">
+                <span>
+                    <h3 class="whyUs p-5 m-5">
+                        <p><img src="content/Why Snuggly/1.gif" width="150" height="150" alt="Customize icon"><br><br>
+                        Customizable Plan</p>
+                    </h3>
+
+                    <h3 class="whyUs p-5 m-5">
+                        <p><img src="content/Why Snuggly/2.gif" width="150" height="150" alt="Weekly service indicated by recycle icon"><br><br>
+                        Weekly Services</p>
+                    </h3>
+
+                    <h3 class="whyUs p-5 m-5">
+                        <p><img src="content/Why Snuggly/3.gif" width="150" height="150" alt="Pet toys indicated by ball icon"><br><br>
+                        Exclusive Pet Gears</p>
+                    </h3>
+
+                    <h3 class="whyUs p-5 m-5">
+                        <p><img src="content/Why Snuggly/4.gif" width="150" height="150" alt="one-stop-shop indicated by pets inside a home icon"><br><br>
+                        Pets 1-Stop-Shop</p>
+                    </h3>
+
+                    <h3 class="whyUs p-5 m-5 font">
+                        <p><img src="content/Why Snuggly/5.gif" width="150" height="150" alt="Pause-the-plan indicated by tick and cross icon"><br><br>
+                        Pause Plan Option</p>
+                    </h3>
+                </span>
+            </div>
         </div>
 
+        <!-- Footer -->
         <div class="footer p-4 bg-warning">
-            <div class="footerelements">
-                <span class ="logo_and_copyright">
-                    <p><img src = " " width="200" height="200" alt= "logo"></p>
+            <div class="footerelements bg-warning">
+                <span class="logo_and_copyright">
+                    <p class="logo"><img src="content/Logo.png" width="380" height="85" alt="Snuggly logo"></p>
                     <h3>All Things Pet Related</h3>
                     <p>Copyright © SNUGGLY 2022</p>
                     <h3><a href="policy.html">Privacy Policy</a><br></h3>
@@ -99,21 +212,50 @@
 
                 </span>
 
-                <span class ="firstthreelinks">
-                    
+                <span class="firstthreelinks">
+
                     <h3><a href="index.html">Home</a><br></h3>
                     <h3><a href="pet_food.html">Pet Food</a><br></h3>
                     <h3><a href="pet_gear.html">Pet Gear</a><br></h3>
                 </span>
 
-                <span class ="secondthreelinks">
+                <span class="secondthreelinks">
                     <h3><a href="how_it_works.html">Instructions</a><br></h3>
                     <h3><a href="faq.html">FAQs</a><br></h3>
                     <h3><a href="aboutUs.html">About Us</a><br></h3>
                 </span>
-                
+
+                <span class="secondthreelinks">
+                    <span class="socials">
+                        <h3>Follow Us</h3>
+                        <h3><a href="https://www.instagram.com/?hl=en">
+                                <p><img src="content/Footer/instagram.png" width="90" height="90" alt="Instagram logo">
+                                </p>
+                            </a><br></h3>
+                    </span>
+
+                    <span class="socials">
+                        <h3><a href="https://www.tiktok.com/en/">
+                                <p><img src="content/Footer/tik-tok.png" width="80" height="80" alt="tiktok logo"></p>
+                            </a><br></h3>
+                    </span>
+
+                    <span class="socials">
+                        <h3><a href="https://twitter.com/?lang=en">
+                                <p><img src="content/Footer/twitter.png" width="80" height="80" alt="Tiktok logo"></p>
+                            </a><br></h3>
+                    </span>
+
+                    <span class="socials">
+                        <h3><a href="https://www.facebook.com/">
+                                <p><img src="content/Footer/facebook.png" width="80" height="80" alt="Facebokk logo">
+                                </p>
+                            </a><br></h3>
+                    </span>
+                </span>
+
             </div>
-        </div>    
+        </div>
     </div>
 
 </body>

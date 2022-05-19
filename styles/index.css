@@ -48,8 +48,39 @@ li{
     position: relative
 }
 
+/* Centering carousal slidershow */
+.carousel-inner img {
+    margin: auto;
+  }
 
+.MainService{
+    margin: 0px;
+    height: 10vh;
+    background-color: blanchedalmond;
+    color: rgb(61, 125, 192);
+}
 
+.text_over_img .text{
+    /* position: absolute; */
+    /* z-index: 999; */
+    margin: 0 auto;
+    left: 0;
+    right: 0;        
+    text-align: center;
+    background: rgb(36, 104, 177);
+    font-family: Arial,sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.MainService{
+    font-weight: bold;
+}
+
+.whyUs{
+    display:inline-block;
+    text-align:left;  
+    font-weight: bold;
+}
 
 
 
@@ -97,4 +128,9 @@ li{
     float: left;
     display:block;
     padding: 10px;
+}
+
+.socials{
+    display:inline-block;
+    text-align:left;
 }
