@@ -23,3 +23,12 @@ https://lordicon.com
 
 <!-- Carousal -->
 https://getbootstrap.com/docs/4.0/components/carousel/ 
+
+<!-- Search box -->
+https://www.youtube.com/watch?v=ijZEX6KltrQ 
+
+<!-- Shopping cart button -->
+https://www.javatpoint.com/add-to-cart-button-in-bootstrap 
+
+<!-- Alert function activiated after onclick event triggered -->
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_alert 
