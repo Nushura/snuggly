@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paw Bowl</title>
+
+    <link rel="stylesheet" href="styles/index.css" />
+
+    <!-- Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Add jQuery and Bootstrap JS necessary CDNs -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script>
+        function doSomething() {
+            alert("Product Added to Cart!");
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <!-- Main div starts here -->
+    <div class="wrapper">
+
+        <!-- HEADER -->
+        <div class=" p-5 bg-warning">
+            <!-- Heading -->
+            <div id="heading" class="snuggly_header display-1">
+                <!-- <h1 class="snuggly_header display-1"> </h1> -->
+                <p class="logo"><img src="content/Logo.png" width="380" height="85" alt="Snuggly logo"></p>
+            </div>
+        </div>
+
+        <!-- NAVIGATION BAR -->
+        <div class="navbar">
+            <div class="container-fluid text-dark">
+                <ul class="nav text-dark">
+                    <li class="active"><a href="index.html">HOME</a></li>
+                    <li><a href="pet_food.html">PET FOOD</a></li>
+                    <li><a href="pet_gear.html">PET GEAR</a></li>
+                    <li><a href="how_it_works.html">INSTRUCTIONS</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="aboutUs.html">ABOUT US</a></li>
+                </ul>
+
+                <ul class="nav navbar-right">
+                    <li><a href="singUp.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    <li><a href="shopping_cart.html"><span class="glyphicon glyphicon-shopping-cart"></span>Cart</a></li>
+                </ul>
+
+            </div>
+        </div>
+
+        <!-- MAIN CONTENT STARTS HERE -->
+        <!-- Change this part according to each page -->
+        <div class="content">
+            <div class="center">
+            <p><img src="content/gears/5_1.png" alt="Paw Bowl" width="250"
+                height="130" class="padding"></p>
+                <div>
+                    <a href="#"><img src="content/gears/5_2.png" style= "height: 40px; "/></a>
+                    <a href="#"><img src="content/gears/5_3.png" style= "height: 40px;"/></a>
+                </div>
+            <h1>Pet Bed</h1>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <h1> $ 70</h1>
+            <h3>Pet Bed ($70)
+                Rectangular pet bed made using canvas. 
+                •	The material and the shape of this rectangular dog bed provides your fur baby a very soft and comfy environment with a great support.
+                •	The whole bed is washable
+                </h3>
+            <label for="quantity">Product Quanitity</label>
+            <input type="number" id="quantity" name="product_quantity" required min="1" />
+            <br />
+            <br>
+            <li><a href="shopping_cart.html" ><span class="glyphicon glyphicon-shopping-cart"></span><button onclick="doSomething()"> Add To Cart</button>
+            </a></li>
+        </div>
+        </div>
+        <br><br>
+
+        <!-- Footer -->
+        <div class="footer p-4 bg-warning">
+            <div class="footerelements bg-warning">
+                <span class="logo_and_copyright">
+                    <p class="logo"><img src="content/Logo.png" width="380" height="85" alt="Snuggly logo"></p>
+                    <h3>All Things Pet Related</h3>
+                    <p>Copyright © SNUGGLY 2022</p>
+                    <h3><a href="policy.html">Privacy Policy</a><br></h3>
+                    <h3><a href="contactUs.html">Contact Us</a><br></h3>
+
+                </span>
+
+                <span class="firstthreelinks">
+
+                    <h3><a href="index.html">Home</a><br></h3>
+                    <h3><a href="pet_food.html">Pet Food</a><br></h3>
+                    <h3><a href="pet_gear.html">Pet Gear</a><br></h3>
+                </span>
+
+                <span class="secondthreelinks">
+                    <h3><a href="how_it_works.html">Instructions</a><br></h3>
+                    <h3><a href="faq.html">FAQs</a><br></h3>
+                    <h3><a href="aboutUs.html">About Us</a><br></h3>
+                </span>
+
+                <span class="secondthreelinks">
+                    <span class="socials">
+                        <h3>Follow Us</h3>
+                        <h3><a href="https://www.instagram.com/?hl=en">
+                                <p><img src="content/Footer/instagram.png" width="90" height="90" alt="Instagram logo">
+                                </p>
+                            </a><br></h3>
+                    </span>
+
+                    <span class="socials">
+                        <h3><a href="https://www.tiktok.com/en/">
+                                <p><img src="content/Footer/tik-tok.png" width="80" height="80" alt="tiktok logo"></p>
+                            </a><br></h3>
+                    </span>
+
+                    <span class="socials">
+                        <h3><a href="https://twitter.com/?lang=en">
+                                <p><img src="content/Footer/twitter.png" width="80" height="80" alt="Tiktok logo"></p>
+                            </a><br></h3>
+                    </span>
+
+                    <span class="socials">
+                        <h3><a href="https://www.facebook.com/">
+                                <p><img src="content/Footer/facebook.png" width="80" height="80" alt="Facebokk logo">
+                                </p>
+                            </a><br></h3>
+                    </span>
+                </span>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

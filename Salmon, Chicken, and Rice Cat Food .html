@@ -30,6 +30,12 @@
 
     <!-- Linking js folder -->
     <script src="store.js" async></script>
+
+    <script>
+        function doSomething() {
+            alert("Product Added to Cart!");
+        }
+    </script>
 </head>
 
 <body>
@@ -107,13 +113,9 @@
                         <input type="number" id="quantity" name="quantity" min="1" >
                     </form>
 
-                    <!-- <h2 class="add_to_cart"><button>Add to Cart</button></h2> -->
-                    <p class = "design" ><button type="button" class="btn btn-sm">  
-                        <a href="#" class="btn btn-primary btn-lg">  
-                            <span class="glyphicon glyphicon-shopping-cart"></span><b>Add to Cart </b>  
-                        </a>  
-                    </p>    
-                </span>
+                    <br>
+                    <li><a href="shopping_cart.html" ><span class="glyphicon glyphicon-shopping-cart"></span><button onclick="doSomething()"> Add To Cart</button>
+                    </a></li>
 
             </div>
 

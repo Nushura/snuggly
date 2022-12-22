@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="styles/index.css" />
+
+    <!-- Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Add jQuery and Bootstrap JS necessary CDNs -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script>
+        function doSomething() {
+            alert("Payment Confirmed!");
+        }
+    </script>
+
+
+    <title>Shopping Cart </title>
+</head>
+<body>
+        <!-- Main div starts here -->
+        <div class="wrapper">
+
+            <!-- HEADER -->
+            <div class=" p-5 bg-warning">
+                <!-- Heading -->
+                <div id="heading" class="snuggly_header display-1">
+                    <!-- <h1 class="snuggly_header display-1"> </h1> -->
+                    <p class="logo"><img src="content/Logo.png" width="380" height="85" alt="Snuggly logo"></p>
+                </div>
+            </div>
+
+
+<div class="content">
+    <div class="center">
+        <h1 style="background-color:blanchedalmond; padding: 20px;">Checkout</h1>
+        <form action="" method="post">
+            <h4 style="background-color: blanchedalmond; padding: 10px;">Full Name and Contact Details</h4>
+            <p>
+                <label for="fname">First Name</label><br />
+                <input type="text" name="firstname" id="fname" required /><br />
+            </p>
+            <p>
+                <label for="lname">Last Name</label><br />
+                <input type="text" name="lastname" id="lname" required  /><br />
+            </p>
+            <p>
+                <label for="phone_number">Phone Number</label><br />
+                <input type="text" name="phone" id="phone_number" required  /><br />
+            </p>
+            <p>
+                <label for="email_address">Email Address</label><br />
+                <input type="email" name="email" id="email_address" /><br />
+            </p>
+            
+            <h4 style="background-color: blanchedalmond; padding: 10px;">Delivery Address</h4>
+            <p>
+                <label for="address_street_1">Street Address</label><br />
+                <input type="text" name="street1" id="address_street_1" required  /><br />
+            </p>
+            <p>
+                <label for="address_street_2">Street Address Line 2</label><br />
+                <input type="text" name="street2" id="address_street_2" /><br />
+            </p>
+            <p>
+                <label for="address_city">City</label><br />
+                <input type="text" name="city" id="address_city" required  /><br />
+            </p>
+            <p>
+                <label for="address_state_province">State/Province</label><br />
+                <input type="text" name="state_province" id="address_state_province" /><br />
+            </p>
+            <p>
+                <label for="postal_code">Postal/Zip Code</label><br />
+                <input type="text" name="postcode" id="postal_code"required  /><br />
+            </p>
+            <p>
+                <label for="country">Country</label><br />
+                <input type="text" name="country" id="country" /><br />
+            </p>
+            
+            <h4 style="background-color: blanchedalmond; padding: 10px;">Credit Card Details</h4>
+            <p>
+                <input type="radio" id="cc_mastercard" name="cc_type" value="mastercard" />
+                <label for="cc_mastercard">Mastercard</label>
+                <br />
+            
+                <input type="radio" id="cc_visa" name="cc_type" value="visa" />
+                <label for="cc_visa">Visa</label>
+                <br />
+                        
+                <input type="radio" id="cc_amex" name="cc_type" value="amex" />
+                <label for="cc_amex">American Express</label>            
+            </p>
+            <p>
+                <label for="credit_card_name">Name on Card</label><br />
+                <input type="text" name="ccname" id="credit_card_name" required /><br />
+            </p>
+            <p>
+                <label for="credit_card_number">Card Number</label><br />
+                <input type="text" name="ccnumber" id="credit_card_number" required  /><br />
+            </p>
+            <p>
+                <label for="credit_card_number">Security Code</label><br />
+                <input type="text" name="ccsecuritycode" id="credit_card_security_code" required /><br />
+            </p>
+            
+            <!-- Checkout -->
+            <div align="right">
+                <li><a href="index.html" ></span><button onclick="doSomething()"> Confirm and Pay</button>
+                </a></li>
+            </div>
+            <br><br>
+
+        </form>
+    </div>
+                <!-- Footer -->
+                <div class="footer p-4 bg-warning">
+                    <div class="footerelements bg-warning">
+                        <span class="logo_and_copyright">
+                            <p class="logo"><img src="content/Logo.png" width="380" height="85" alt="Snuggly logo"></p>
+                            <h3>All Things Pet Related</h3>
+                            <p>Copyright © SNUGGLY 2022</p>
+                        </span>
+                    </div>
+                           
+            </div>
+</div>
+
+
+
+</body>
+</html>
